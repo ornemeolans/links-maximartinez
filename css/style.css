@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #b2ab88;
+    font-family: 'Nunito', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+header h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.contact{
+    display: grid;
+    grid-template-areas: "wa"
+    "mail"
+    "instagram";
+}
+
+.wa{
+    grid-area: wa;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #acd0e1;
+    margin: 20px;
+    padding: 20px 0px;
+    border-radius: 0.7em;
+}
+
+.wa img{
+    width: 30px;
+    height: 30px;
+    margin: 0px 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.wa a{
+    font-size: 20px;
+    text-decoration: none;
+    width: 190px;
+    color: black;
+    margin: 0px 30px;
+}
+
+.mail{
+    grid-area: mail;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
+    background-color: #acd0e1;
+    margin: 20px;
+    padding: 20px 0px;
+    border-radius: 0.7em;
+}
+
+.mail img{
+    width: 30px;
+    height: 30px;
+    margin: 0px 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mail a{
+    font-size: 20px;
+    text-decoration: none;
+    width: 190px;
+    color: black;
+    margin: 0px 30px;
+}
+
+.instagram{
+    grid-area: instagram;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
+    background-color: #acd0e1;
+    margin: 20px;
+    padding: 20px 0px;
+    border-radius: 0.7em;
+}
+
+.instagram img{
+    width: 30px;
+    height: 30px;
+    margin: 0px 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram a{
+    font-size: 20px;
+    text-decoration: none;
+    width: 190px;
+    margin: 0px 30px;
+    color: black;
+}
